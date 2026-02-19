@@ -1,0 +1,32 @@
+# Student Result Management System
+
+A Java-based console application developed for **Assignment 1** that manages student records, calculates academic performance, and implements data persistence using File I/O and Serialization.
+
+## 📌 Features
+
+* **Student Data Management:** Input and store Student Name, Roll Number, and marks for 5 subjects.
+* **Automated Analytics:** Automatically calculates Total Marks, Average, and assigns Letter Grades.
+* **Data Persistence (Binary):** Uses `ObjectOutputStream` and `Serializable` to save records to `records.dat`, ensuring data remains available after the program closes.
+* **Report Generation:** Exports a clean, formatted report of all students to a text file (`output.txt`).
+* **Filtering:** Specific functionality to view all records or filter specifically for students who failed.
+
+---
+
+## 🛠️ Technical Logic
+
+The system assigns grades based on the following average calculation:
+
+| Average Score | Grade | Status |
+| :--- | :--- | :--- |
+| >= 90 | A | Pass |
+| >= 75 | B | Pass |
+| >= 50 | C | Pass |
+| < 50 | F | Fail |
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/Haady32/Student-Result-System.git](https://github.com/Haady32/Student-Result-System.git)
