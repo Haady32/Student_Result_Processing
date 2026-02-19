@@ -1,0 +1,21 @@
+===== Student Report =====
+Roll No : 397
+Name    : Jeffin
+Average : 92.0
+Grade   : A
+---------------------------
+Roll No : 789
+Name    : qwerty
+Average : 74.6
+Grade   : C
+---------------------------
+Roll No : 7891
+Name    : wertyu
+Average : 96.2
+Grade   : A
+---------------------------
+Roll No : 746
+Name    : Arjun
+Average : 65.2
+Grade   : C
+---------------------------
